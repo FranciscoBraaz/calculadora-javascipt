@@ -9,4 +9,4 @@ Esse projeto é uma modets extensão da atividade prática desenvolvida no curso
 
 O projeto foi desenvolvido em HTML, CSS e JavaScript.
 
-![Calculadora](https://ibb.co/jH20cf9)
+[![Jogo](https://i.imgur.com/9o3jzGW.png "Jogo")](https://i.imgur.com/9o3jzGW.png "Jogo")
