@@ -1,0 +1,163 @@
+@font-face {
+    src: url(digital-7.ttf);
+    font-family: 'Digital-7';    
+    font-weight: normal;
+}
+
+body {
+    background: linear-gradient(45deg, #3e7496, #2e5c79, #ff4b5c, #fe7171);
+    background-size: 200% 200%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-calc {
+    width: 350px;
+    height: 520px;
+    background-color:rgb(46, 46, 46);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:5px solid rgba(203, 203, 203, 0.4);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+.display {
+    background-color: rgba(45, 45, 45, 0.2);
+    background-image: url('../images/glass.png');
+    filter: brightness(115%);
+    background-position: center;
+    width: 294px;
+    height: 96px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Digital-7';
+    border-radius: 20px;
+    border: 6px solid rgba(203, 203, 203, 0.4);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container-buttons {
+    width: 300px;
+    height: 320px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(192, 192, 192);
+}
+
+.result {
+    margin-top: 26px;
+    margin-right: 15px;
+}
+
+.line1,.line2, .line3 {
+    display: flex;
+}
+
+.lineSpecial {
+    display: flex;
+}
+
+.lines-left {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+}
+
+.line-left1,.line-left2 {
+    display: flex;
+}
+
+div[class^='btn'] {
+    width: 55px;
+    height: 53px;
+    background-color: rgb(51, 52, 53);
+    border: 1px solid black;
+    color: rgb(192, 192, 192);
+    font-size: 24px;
+    text-align: center;
+    padding: 0px 4px;
+    border-radius: 8px;
+    line-height: 53px;
+}
+
+div[class^='btn']:hover {
+    background-color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+
+.btn-7, .btn-8, .btn-9,
+.btn-4, .btn-5, .btn-6, 
+.btn-ac, .btn-ce, .btn-divisao,
+.btn-subtracao, .btn-multiplicacao, .btn-porcento {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-2,.btn-ponto {
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.btn-2 {
+    margin-bottom: 10px;
+}
+
+.btn-soma {
+    margin-left: 5px;
+    height: 118px !important;
+    line-height: 118px !important;
+}
+
+.btn-1,.btn-0 {
+    margin-right: 5px;
+}
+
+.btn-3, .btn-igual{
+    margin-left: 5px;
+}
+
+.line-right {
+    margin-left: 5px;
+}
+
+#resultValue {
+    opacity: 1;
+    font-size: 48px;
+    text-align: right;
+    width: 98%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    margin-top: -6px;
+    color: rgb(192, 192, 192);
+    font-family: 'Digital-7';
+    outline: none;
+    cursor: default;
+}
