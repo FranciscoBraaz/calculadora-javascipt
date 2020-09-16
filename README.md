@@ -9,4 +9,4 @@ Esse projeto é uma modets extensão da atividade prática desenvolvida no curso
 
 O projeto foi desenvolvido em HTML, CSS e JavaScript.
 
-[![Calculadora](https://i.imgur.com/5moFOhi.png "Calculadora")
+![Calculadora](https://i.imgur.com/5moFOhi.png)
